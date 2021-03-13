@@ -1,9 +1,10 @@
 {
+    "icon": "assets/icon.png",
     "name": "Comfy",
     "description": "Stay comfy while talking to your friends",
     "version": "1.0",
     "author": "Nyria#3863",
-    "theme": "update.scss",
+    "theme": "custom.scss",
     "consent": "false",
     "license": "MIT"
 }

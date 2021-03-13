@@ -1,6 +1,9 @@
 :root {
-    /* If you don't like one of those variables until "Other settings" you can delete them or you can also
-    try to change those if you have some css knowledge */
+
+/* If you don't like one of those variables until "Other settings" you can delete them or you can also try to change those if you have some css knowledge */
+
+/* Vizality - Better Spotify seek bar */
+.spotify-in-discord-player-seek-bar { position: absolute; bottom: 0px;width: 240px;height: 52px !important;-webkit-mask-image: linear-gradient(0.25turn, #0009, #00000021);mask-image: linear-gradient(0.25turn, #0009, #0003);}.spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .avatarWrapper-2yR4wp, .spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .hoverRoll-YK53gQ { z-index: 3; }.spotify-in-discord-player-controls > .button-14-BFJ.enabled-2cQ-u7:hover { background-color: transparent;}.spotify-in-discord-player-seek-bar-cursor { display: none;}
 
 /* User popout animation */
 .headerPlaying-j0WQBV.header-2BwW8b, .headerSpotify-zpWxgT.header-2BwW8b, .headerStreaming-2FjmGz.header-2BwW8b, .headerXbox-3G-4PF.header-2BwW8b { padding-bottom: 30px;}.headerPlaying-j0WQBV.header-2BwW8b:after, .headerSpotify-zpWxgT.header-2BwW8b:after, .headerStreaming-2FjmGz.header-2BwW8b:after, .headerXbox-3G-4PF.header-2BwW8b:after { background: url('https://nyri4.github.io/Comfy/assets/wave.png'); background-size: 250px 20px; animation: animate 6s linear infinite !important; opacity: 1 !important;}.header-2BwW8b:after, .headerPlaying-j0WQBV:before, .headerSpotify-zpWxgT:before, .headerStreaming-2FjmGz:before, .headerXbox-3G-4PF:before { position: absolute;content: "";bottom: -1px;left: 0;width: 250px;height: 20px;z-index: -1;animation: animate2 6s linear infinite;animation-delay: 0s;opacity: 0.5;}.headerPlaying-j0WQBV:before { background: url('https://nyri4.github.io/Comfy/assets/wave_playing.png'); background-size: 250px 20px;}.headerSpotify-zpWxgT:before { background: url('https://nyri4.github.io/Comfy/assets/wave_spotify.png'); background-size: 250px 20px;}.headerStreaming-2FjmGz:before { background: url('https://nyri4.github.io/Comfy/assets/wave_streaming.png'); background-size: 250px 20px;}.headerXbox-3G-4PF:before { background: url('https://nyri4.github.io/Comfy/assets/wave_xbox.png'); background-size: 250px 20px;}@keyframes animate { 0% { background-position-x: 0;} 100% { background-position-x: 250px;}}@keyframes animate2 {0% { background-position-x: 250px; } 100% { background-position-x: 0px;}}
@@ -10,22 +13,38 @@
 
 /* -- Others settings -- */
 
+/* User button spacing */
+--user-buttons-spacing: 8px;
+
 /* Avatar roundess */
 --avatar-radius: 5px;
+
+/* Status roundness */
+--status-radius: 3px; 
+
+/* Server roundess */
+--server-radius: 8px;
 
 /* Avatar width in modals */
 --avatar-width: 130px;
 
-/* Server roundess */
---server-radius: 8px;
+/* Change bonfire in modals */
+--bonfire: url('https://nyri4.github.io/Comfy/assets/bonfire.gif');
 
 /* Colored emoji picker */
 --colored-emoji: grayscale(0%); /* Change the value to "100%" if you want the basic one */
 
 /* Mention color */
+--mention-color: #f04747;
+--unread-color: #7289da;
+
+/* Mention color in chat */
 --mention-color-bar: #C66262;
 --mention-color-background: #c662621f;
 --mention-color-hover: #c6626226;
+
+/* Vizality - Spotify seek bar color */
+--spotify-in-discord__spotify-brand-color: #1ed760;
 
 /* Powercord - Spotify seek bar color */
 --spotify-color: #096dc0 !important;
@@ -36,8 +55,14 @@
 /* Chat buttons color */
 --chat-buttons: #6E85D3;
 
+/* Status color */
+--online: #43B581;
+--iddle: #FAA61A;
+--dnd: #F04747;
+--offline: #747F8D;
+
 /* Circles next to role names */
---role-circle: 7px; /* Set it to "0px" if you don't want circles */
+--role-circle: 5px;
 
 /* Tooltips */
 --tooltips: block; /* Set it to "none" if you don't want it */
@@ -69,7 +94,7 @@
     --toast-contents: #23283d !important;
 }
 
-.theme-light {
+.theme-light { /* I don't support light theme it's just for the "Create a server" popup */
     --background-tertiary: #101320;
     --background-secondary: #1e2233;
     --background-secondary-alt: #191f2e;
