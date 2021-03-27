@@ -1,3 +1,6 @@
+## Details
+A fork of Comfy, to preserve some of Discord's natural aesthetic
+
 ## Vizality
 
 📥 Install : ```cd vizality\addons\themes && git clone https://github.com/NYRI4/Comfy-git-clone```
