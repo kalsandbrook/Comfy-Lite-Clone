@@ -1,8 +1,8 @@
 {
-    "name": "Comfy",
+    "name": "Comfy Lite",
     "description": "Stay comfy while talking to your friends",
     "version": "1.0",
-    "author": "Nyria#3863",
+    "author": "Nyria#3863, a bit from RogueCalamity#5433.",
     "theme": "update.scss",
     "consent": "false",
     "license": "MIT"
