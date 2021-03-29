@@ -222,11 +222,6 @@
   background: linear-gradient(#0000, var(--mention-color));
 }
 
-/* Mention pill */
-.lowerBadge-29hYVK {
-  top: 0;
-  left: 0px;
-}
 .lowerBadge-29hYVK .numberBadge-2s8kKX {
   animation: 2s server-mention infinite;
 }
