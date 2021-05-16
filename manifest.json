@@ -1,8 +1,8 @@
 {
     "icon": "assets/icon.png",
-    "name": "Comfy Lite",
+    "name": "Comfy",
     "description": "Stay comfy while talking to your friends",
-    "version": "1.0",
+    "version": "2.0",
     "author": "Nyria#3863",
     "theme": "update.scss",
     "consent": "false",
